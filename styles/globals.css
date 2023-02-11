@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* fonts: clash display */
+@font-face {
+  font-family: 'clash display';
+  src: url('../fonts/clash\ display/ClashDisplay-Variable.woff2');
+}
+
+/* fonts: dm sans */
+@font-face {
+  font-family: 'dm sans';
+  src: url('../fonts/dm\ sans/DMSans-Regular.ttf');
+}
+
+/* fonts: general sans */
+@font-face {
+  font-family: 'general sans';
+  src: url('../fonts/general\ sans/GeneralSans-VariableItalic.woff2');
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
