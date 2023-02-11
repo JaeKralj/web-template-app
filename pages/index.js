@@ -22,8 +22,8 @@ export default function Home() {
       <section id='home' className='bg-black min-h-screen'>
         <div className='mx-auto max-w-[1200px] grid md:grid-cols-[1fr_1fr] grid-cols-[1fr] gap-5 p-5'>
           <div>
-            <h1 className='text-white font-clash-display font-bold text-[2rem] md:text-6xl'>
-              Creative assets for busy{' '}
+            <h1 className='text-white  font-clash-display font-bold text-[2rem] md:text-6xl'>
+              Creative assets for busy
               <span className='text-secondary'>designers</span> &{' '}
               <span className='text-secondary'>developers</span>
             </h1>
