@@ -10,7 +10,7 @@ export default function Updates() {
       <Card className='bg-black-100 rounded-b-none p-0 rounded-3xl'>
         <CustomFragment>
           <h1 className='text-white'>Latest Updates</h1>
-          <div className='flex flex-wrap gap-5 my-3 justify-center'>
+          <div className='flex flex-wrap gap-5 my-3 justify-center md:justify-between'>
             <Card className='flex border border-white items-center gap-2 hover:border-violet group cursor-pointer'>
               <div className='rounded-full w-8 aspect-square'>
                 <Image
