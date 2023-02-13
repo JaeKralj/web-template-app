@@ -8,7 +8,7 @@ export default function Button({
   return (
     <button
       onClick={handleOnclick}
-      className={`bg-gradient py-3 px-3 rounded-xl text-center ${className} hover:animate-pulse`}
+      className={`py-3 px-3 rounded-xl text-center  hover:animate-pulse ${className}`}
       type={type || 'button'}
       {...props}
     >

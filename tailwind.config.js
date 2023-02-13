@@ -14,8 +14,12 @@ module.exports = {
     extend: {
       colors: {
         black: '#0E0F10',
+        'black-100': 'rgba(255, 255, 255, 0.03)',
         white: '#FFFFFF',
+        'white-100': 'rgba(255, 255, 255, 0.8)',
         secondary: '#C7CAFE',
+        violet: '#721AE5',
+        'violet-100': '#E0E3FF',
       },
       backgroundImage: {
         gradient: 'linear-gradient(266.55deg, #FF715B 2.21%, #5132C0 103.26%)',
