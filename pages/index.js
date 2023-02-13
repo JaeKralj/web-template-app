@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Categories from '../components/home/Categories'
-import Hero from '../components/home/hero'
+import Hero from '../components/home/Hero'
 import Updates from '../components/home/Updates'
 
 export default function Home() {
